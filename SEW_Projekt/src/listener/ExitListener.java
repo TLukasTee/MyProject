@@ -1,0 +1,20 @@
+//package listener;
+//
+//import java.awt.event.ActionEvent;
+//import java.awt.event.ActionListener;
+//
+//import models.GameEngine;
+//import models.PlayerMenu;
+//
+//public class ExitListener implements ActionListener {
+//    @Override
+//    public void actionPerformed(ActionEvent event) {
+//        PlayerMenu.getTimer().setTimeRunning(false);
+//        GameEngine.setPlaying(false);
+//
+//        ExitDialog exitDialog = new ExitDialog("Exit");
+//
+//        exitDialog.setLocationRelativeTo(null);
+//        exitDialog.setVisible(true);
+//    }
+//}
